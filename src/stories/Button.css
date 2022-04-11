@@ -1,0 +1,25 @@
+.button {
+  width: 150px;
+  height: 70px;
+  background-color: darkcyan;
+  border: 2px solid black;
+  border-radius: 10px;
+  margin-right: 20px;
+  color: #fff;
+  font-size: 20px;
+  transition: .3s all ease;
+  cursor: pointer;
+}
+
+.button:disabled {
+  background-color: gray;
+  border: 2px solid dimgray;
+}
+
+.button:hover {
+  transform: scale(.98);
+}
+
+.button:disabled:hover {
+  transform: scale(1);
+}
